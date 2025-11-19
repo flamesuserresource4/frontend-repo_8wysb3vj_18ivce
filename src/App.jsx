@@ -3,17 +3,19 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import ParallaxShowcase from './components/ParallaxShowcase'
+import CaseStudies from './components/CaseStudies'
 import Process from './components/Process'
 import CTA from './components/CTA'
 
 function App() {
   return (
-    <div className="min-h-screen bg-white text-[#262626]">
+    <div className="min-h-screen bg-white text-[#262626]" id="top">
       <NavBar />
       <main>
         <Hero />
         <Services />
         <ParallaxShowcase />
+        <CaseStudies />
         <Process />
         <CTA />
       </main>
